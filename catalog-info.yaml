@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ms-payment-aws-d1-automation
+  annotations:
+    github.com/project-slug: fjbalsamo/my-repo-test-1
+spec:
+  type: service
+  lifecycle: production
+  owner: group:default/guests
